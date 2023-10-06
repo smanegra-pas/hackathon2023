@@ -1,0 +1,47 @@
+1. open pewershell on windows
+2. open desktop and make folder project
+3. open folder project
+4. python -m venv myVenvs
+5. source myVenv/Scripts/activate
+6. pip freeze to make sure myVenv
+7. pip install django
+8. django-admin startproject myProject
+9. cd myProject
+10. django-admin startapp myApp
+11. ls
+12. python manage.py migrate
+13. python manage.py createsuperuser
+14. fill email, password and confirm password and Yes
+15. python manage.py runserver
+
+1. open terminal command
+2. open vscode, make file app.py
+	import sys
+
+	print(sys, path)
+3. on command prompt
+	dir/w (to look file and folder inside)
+	chdir OneDrive (mine)
+	chdir Desktop (mine)
+	chdir virtualenv-project
+	dir
+	python app.py
+	(copy file location python.exe)
+	C:\Users\Zuf4r\AppData\Local\Progam\Python\......
+	(ditambah perintah) -m venv venvName
+	on vscode there are venvName folder
+	python -v (to make sure python version)
+	echo %PATH% (to look path python location, make sure there are Scripts folder)
+	venvNama\Scripts\activate.bat
+	make new file requirement.txt
+		django
+		requests
+		gunicorn
+		flask
+	pip install -r requirement.txt
+
+Perintah tambahan
+- pipenv shell
+- django-admin utk melihat file runserver
+- django-admin startproject MarketDay (nama proyek)
+- 

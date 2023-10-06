@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smanegra Sehat</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <div class="navbarlogo">
+        <img
+          class="logoo"
+          src="img/smanegra.png"
+          alt=""
+          width="50"
+          height="50"
+        />
+        <a href="#" class="navbar-logo">Smanegra<span> Sehat</span></a>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#articles">Artikel</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1 class="block-effect" style="--td: 1.2s">
+          <div class="block-reveal" style="--bc: #ffffff; --d: 0.1s">
+            Mari kita biasakan
+          </div>
+          <div class="block-reveal" style="--bc: #65b300; --d: 0.5s">
+            kebiasaan hidup sehat
+          </div>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus, accusamus!
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+    <section class="articles" id="articles">
+      <div class="slider">
+        <input type="radio" name="toggle" id="btn-1" checked />
+        <input type="radio" name="toggle" id="btn-2" />
+        <input type="radio" name="toggle" id="btn-3" />
+        <input type="radio" name="toggle" id="btn-4" />
+
+        <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+          <label for="btn-4"></label>
+        </div>
+
+        <ul class="slides">
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">
+                Biasakan membuang sampah pada tempatnya
+              </h2>
+              <p class="slide-text">
+                Penting sekali untuk membuang sampah di tempat yang tepat.
+                Meninggalkan sampah di mana saja membuat lingkungan menjadi
+                kotor dan berbahaya bagi semua. Tempat sampah membantu menjaga
+                area sekitar tetap bersih dan sehat.
+              </p>
+              <a href="#popup1" class="slide-link">Learn more</a>
+            </div>
+            <p class="slide-image">
+              <img src="img/image1.png" alt="stuff" width="400" height="500" />
+            </p>
+          </li>
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Kebiasaan Sehat Mencuci Tangan</h2>
+              <p class="slide-text">
+                Mencuci tangan adalah tindakan sederhana namun penting untuk
+                menjaga kesehatan dan mencegah penyebaran penyakit. Seperti
+                membuang sampah pada tempatnya menjaga lingkungan bersih,
+                mencuci tangan secara teratur adalah langkah vital dalam menjaga
+                kesehatan pribadi.
+              </p>
+              <a href="#popup2" class="slide-link">Pelajari lebih lanjut</a>
+            </div>
+            <p class="slide-image">
+              <img src="img/image2.png" alt="stuff" width="320" height="240" />
+            </p>
+          </li>
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Slide #3</h2>
+              <p class="slide-text">
+                Quisquam quod ut quasi, vero obcaecati laudantium asperiores
+                corporis ad atque. Expedita fugit dicta maxime vel doloribus
+                sequi, facilis dignissimos.
+              </p>
+              <a href="#" class="slide-link">Get started</a>
+            </div>
+            <p class="slide-image">
+              <img
+                src="https://placeimg.com/320/240/any"
+                alt="stuff"
+                width="320"
+                height="240"
+              />
+            </p>
+          </li>
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Slide #4</h2>
+              <p class="slide-text">
+                Quisquam quod ut quasi, vero obcaecati laudantium asperiores
+                corporis ad atque. Expedita fugit dicta maxime vel doloribus
+                sequi, facilis dignissimos.
+              </p>
+              <a href="#" class="slide-link">Get started</a>
+            </div>
+            <p class="slide-image">
+              <img
+                src="https://placeimg.com/320/240/any"
+                alt="stuff"
+                width="320"
+                height="240"
+              />
+            </p>
+          </li>
+        </ul>
+        <ul class="poppup">
+          <div id="popup1" class="overlay">
+            <div class="popup">
+              <h2>Healthy Habits: Membuang Sampah pada Tempatnya</h2>
+              <a class="close" href="#articles">&times;</a>
+              <div class="popupcontent">
+                Membuang sampah pada tempatnya adalah tindakan sederhana yang
+                memiliki dampak besar pada kesehatan dan lingkungan kita. Ketika
+                kita menjaga kebersihan lingkungan dengan cara membuang sampah
+                pada tempatnya, kita secara efektif mengurangi risiko pencemaran
+                dan penyebaran penyakit. <br />
+                <br />
+                Mengapa penting? Data menunjukkan bahwa penumpukan sampah yang
+                tidak teratur dapat menjadi tempat berkembangnya bakteri dan
+                hama yang berpotensi menyebabkan penyakit. Kepala Himpunan
+                Lingkungan Indonesia, Maria Susanto, mengingatkan bahwa
+                "Kebersihan lingkungan adalah kunci untuk menghindari masalah
+                kesehatan." <br />
+                <br />
+                Kebiasaan ini sangat relevan dalam budaya kita, terutama dalam
+                makanan. Dengan menjaga lingkungan bersih dan membuang sampah
+                pada tempatnya, kita dapat menghindari kerumitan akibat penyakit
+                yang disebabkan oleh kontaminasi makanan atau minuman. Selain
+                itu, menjaga kebersihan juga membantu menjaga keindahan dan
+                estetika lingkungan kita. <br />
+                <br />
+                Mari kita jaga kebersihan lingkungan sebagai bagian dari
+                kebiasaan sehat kita, karena ini bukan hanya untuk kesehatan
+                kita sendiri, tetapi juga untuk menjaga kebersihan dan
+                kebahagiaan lingkungan kita. Stay healty, stick with healty
+                habits and make your life happier with it!
+              </div>
+            </div>
+          </div>
+          <div id="popup2" class="overlay">
+            <div class="popup">
+              <h2>Healty Habits: Mencuci Tangan</h2>
+              <a class="close" href="#articles">&times;</a>
+              <div class="popupcontent">
+                Hal yang seringkali kita anggap remeh dalam kehidupan
+                sehari-hari. Mencuci tangan merupakan salah satu kebiasaan yang
+                dapat mencegah kuman penyakit dari bakteri menghinggap pada
+                makanan atau minuman kita. Hal ini dapat mencegah penyakit
+                seperti diare, kram perut maupun penyakit lainnya masuk pada
+                tubuh kita.
+                <br />
+                <br />
+                Mengapa hal ini penting? Karena berdasarkan data WHO, tangan
+                mengandung bakteri sebanyak 39.000-460.000 CFU per sentimeter
+                kubik, yang berpotensi tinggi menyebabkan penyakit infeksi
+                menular. Ketua Himpunan Perawatan Pengendalian Infeksi
+                Indonesia, Costy Pandjaitan mengucapkan bahwa "Tangan adalah
+                salah satu pintu masuk segala penyakit" ucapnya. <br />
+                <br />
+                Mencuci tangan adalah satu hal yang harus kita biasakan dalam
+                kehidupan sehari-hari, terutama karena salah satu budaya kita
+                adalah makan menggunakan tangan. Dan diutamakan juga untuk
+                mencuci tangan dengan sabun ataupun handsinitzer dalam tujuan
+                untuk mencegah serta membunuh bakteri berkembang di tangan kita.
+                Serta untuk mencegah adanya sisa-sisa makanan yang ada pada
+                tangan kita. <br />
+                <br />
+                Dengan mencuci tangan kita dapat mencegah adanya bakteri yang
+                dapat menyebabkan kuman penyakit masuk pada organ pencernaan
+                kita. Maka dari itu, jangan lupa untuk mencuci tangan dan
+                menjaga kebersihan untuk kesehatan kita dan juga untuk
+                kebahagiaan kita sendiri. Stay healty, stick with healty habits
+                and make your life happier with it!
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about.jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Produk kami layak untuk dibeli :)</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            aspernatur quos sit doloremque maxime saepe.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+            nobis?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid ut
+        quod odit nemo unde dolor est voluptatibus officiis
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/1.jpeg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Beras Kencur -</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.jpeg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Beras Kencur -</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.jpeg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Beras Kencur -</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.jpeg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Beras Kencur -</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.jpeg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Beras Kencur -</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.jpeg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Beras Kencur -</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End-->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, sapiente.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.7202285041762!2d113.01695901526298!3d-7.713139378551695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7ca056fd8b725%3A0x68176e84c8525c96!2sSMAN%201%20Grati%20-%20Pasuruan!5e0!3m2!1sid!2sid!4v1674707102097!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No HP" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Create by <a href="">Smanegra</a> | &copy; 2023.</p>
+      </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
